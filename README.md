@@ -18,7 +18,7 @@ The punishment is defined as the inverse of the average distance needed to trave
 The way the distance travelled is calculated can be visualized as the total movement of a finger typing, assuming that the person typing is only using a single finger.
 
 ### Keyboard Layout
-A Keyboard Layout class represents a simplified keyboard layout which contains just 26 characters.
+A Keyboard Layout class represents a simplified keyboard layout which contains just 26 characters, uppercase version of the letters of the English Alphabet. The layout has been designed to follow the existing standards for [keyboard layouts](https://en.wikipedia.org/wiki/Keyboard_layout), including the default <code>19.05mm</code> distance between each key, in a single row.
 
 ### Genetic operators
 #### Selection
@@ -29,11 +29,11 @@ A Keyboard Layout class represents a simplified keyboard layout which contains j
 
 #### Crossover
 + Split and fill
-  + <i>Crossover operator implementation that takes the left side of the string layout, of the first parent, and appends the missing characters from the string layout from the second parent, in the order they appeared.<i>
+  + <i>Crossover operator implementation that takes the left side of the string layout, of the first parent, and appends the missing characters from the string layout from the second parent, in the order they appeared.</i>
 
 #### Mutation
 + Swap characters
-  +  <i>Mutation operator implementation that swaps characters with a given probability.<i>
+  +  <i>Mutation operator implementation that swaps characters with a given probability.</i>
 
 ## Fun TODO ideas
 + Implement different ways to calculate the punishment by adding support for typing with multiple fingers, e.g. [touch typing](https://en.wikipedia.org/wiki/Touch_typing)
