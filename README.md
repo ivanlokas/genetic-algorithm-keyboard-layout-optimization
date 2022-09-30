@@ -18,7 +18,7 @@ The punishment is defined as the inverse of the average distance needed to trave
 The way the distance travelled is calculated can be visualized as the total movement of a finger typing, assuming that the person typing is only using a single finger.
 
 ### Keyboard Layout
-A Keyboard Layout class represents a simplified keyboard layout which contains just 26 characters, uppercase version of the letters of the English Alphabet. The layout has been designed to follow the existing standards for [keyboard layouts](https://en.wikipedia.org/wiki/Keyboard_layout), including the default <code>19.05mm</code> distance between each key, in a single row.
+A Keyboard Layout class represents a simplified keyboard layout which contains just 26 characters, an uppercase version of the letters of the English Alphabet. The layout has been designed to follow the existing standards for [keyboard layouts](https://en.wikipedia.org/wiki/Keyboard_layout), including the default <code>19.05mm</code> distance between each key, in a single row.
 
 ### Genetic operators
 #### Selection
@@ -38,3 +38,6 @@ A Keyboard Layout class represents a simplified keyboard layout which contains j
 ## Fun TODO ideas
 + Implement different ways to calculate the punishment by adding support for typing with multiple fingers, e.g. [touch typing](https://en.wikipedia.org/wiki/Touch_typing)
 + Design new genetic operators and compare the results
+
+## Conclusion
+This was a fun mini project that I decided to make because of a couple of videos. It does not feature any complex kind of demonstration or statistical analysis. When taking an abstract view it is only a trivial implementation of a genetic algorithm, but it helped me learn new things and I had a lot of fun making it.
